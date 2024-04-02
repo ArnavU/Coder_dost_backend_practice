@@ -3,7 +3,7 @@ const server = express();
 
 // built in middleware
 server.use(express.json());
-// server.use(express.urlencoded());
+// server.use(express.urlencoded()); => not explained
 
 // middleware
 // this is application level middleware
